@@ -1,4 +1,4 @@
-package NgonNguLapTrinhJava.B1_JavaOverView.ThucHanh;
+package B1_NgonNguJava.ThucHanh;
 
 import java.util.Scanner;
 
