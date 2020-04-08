@@ -1,4 +1,4 @@
-package B1_NgonNguJava.ThucHanh;
+package B2_MangVaPhuongThuc.ThucHanh;
 
 public class tinGiaTriNhoNhat {
     public static void main(String[] args) {
