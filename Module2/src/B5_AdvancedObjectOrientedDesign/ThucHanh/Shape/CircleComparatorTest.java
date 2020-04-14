@@ -1,4 +1,4 @@
-package NgonNguLapTrinhJava.B5_InterfaceAndAbstractClass.ThucHanh.Shape;
+package B5_AdvancedObjectOrientedDesign.ThucHanh.Shape;
 
 import java.util.Arrays;
 import java.util.Comparator;

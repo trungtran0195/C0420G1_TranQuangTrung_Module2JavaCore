@@ -1,4 +1,4 @@
-package NgonNguLapTrinhJava.B5_InterfaceAndAbstractClass.ThucHanh.Shape;
+package B5_AdvancedObjectOrientedDesign.ThucHanh.Shape;
 
 public class Rectangle extends Shape implements Resizeable{
     //Có thêm hai thuộc tính là width và length (double) với giá trị mặc định : 1.0

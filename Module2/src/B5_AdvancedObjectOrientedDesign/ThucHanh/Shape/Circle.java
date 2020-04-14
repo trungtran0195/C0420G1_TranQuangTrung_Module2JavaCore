@@ -1,4 +1,4 @@
-package NgonNguLapTrinhJava.B5_InterfaceAndAbstractClass.ThucHanh.Shape;
+package B5_AdvancedObjectOrientedDesign.ThucHanh.Shape;
 
 public class Circle extends Shape implements Resizeable {
     //Có thêm thuộc tính radius (double) với giá trị mặc định là : 1.0
