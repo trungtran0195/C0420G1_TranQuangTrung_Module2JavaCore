@@ -10,5 +10,6 @@ public class RectangleTest {
 
         rectangle = new Rectangle(2.5, 3.8, "orange", true);
         System.out.println(rectangle);
+        
     }
 }
