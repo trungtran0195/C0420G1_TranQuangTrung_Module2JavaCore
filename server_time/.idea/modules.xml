@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/B12_WebApplicationOverView.iml" filepath="$PROJECT_DIR$/B12_WebApplicationOverView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/server_time.iml" filepath="$PROJECT_DIR$/.idea/server_time.iml" />
     </modules>
   </component>
 </project>
