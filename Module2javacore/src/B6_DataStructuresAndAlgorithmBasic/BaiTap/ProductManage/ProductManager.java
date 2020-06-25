@@ -27,7 +27,6 @@ public class ProductManager {
         System.out.println("Enter product name:");
         product.setNameProduct(ScannerUtils.scanner.nextLine());
 
-        ScannerUtils.scanner.nextInt();
         System.out.println("Enter product price:");
         product.setPrice(ScannerUtils.scanner.nextInt());
         productArrayList.add(product);
@@ -49,7 +48,6 @@ public class ProductManager {
         System.out.print("\nEnter product name:");
         product.setNameProduct (ScannerUtils.scanner.nextLine());
 
-        ScannerUtils.scanner.nextInt();
         System.out.println("Enter product price:");
         product.setPrice(ScannerUtils.scanner.nextInt());
 

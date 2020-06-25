@@ -7,12 +7,8 @@ public class MainManu {
         processMain();
     }
     public static void processMain() {
-        try {
-            displayMainMenu();
-            processMainManu();
-        }catch (Exception e){
-            processMain();
-        }
+        displayMainMenu();
+        processMainManu();
     }
 
     public static void displayMainMenu() {
@@ -46,7 +42,7 @@ public class MainManu {
                 sortByPriceProduct();
                 break;
             default:
-                displayMainMenu();
+                processMain();
         }
     }
 }

@@ -51,7 +51,6 @@ public class LinkedListProduct {
         System.out.print("Enter product name:");
         product.setNameProduct (ScannerUtils.scanner.nextLine());
 
-        ScannerUtils.scanner.nextInt();
         System.out.println("Enter product price:");
         product.setPrice(ScannerUtils.scanner.nextInt());
 

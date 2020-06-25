@@ -1,33 +1,41 @@
 package B10_ExceptionHandling.BaiTap.IllegalTriangleException;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Triangle {
-    public static void Triangle(int a ,int b , int c) throws IllegalTriangleException{
-        if (a+b > c && a+c>b && b+c>a && a > 0 && b> 0 && c > 0){
-            int perimeter = a + b + c;
-            System.out.println("chu vi tam giac la :" + perimeter + "voi canh la:" + a + "," + b + ","+c);
-        }else {
-            throw new IllegalTriangleException();
-        }
+    private double side1;
+    private double side2;
+    private double side3;
+
+    public Triangle(double side1, double side2, double side3)
+            throws IllegalTriangleException, InputMismatchException {
+        if (side1 + side2 <= side3 ||
+                side1 + side3 <= side2 ||
+                side2 + side3 <= side1)
+            throw new IllegalTriangleException(side1, side2, side3);
+        this.side1 = side1;
+        this.side2 = side2;
+        this.side3 = side3;
     }
 
-    public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("nhap canh a :");
-        int a = scanner.nextInt();
-
-        System.out.println("nhap canh b :");
-        int b = scanner.nextInt();
-
-        System.out.println("nhap canh c :");
-        int c = scanner.nextInt();
-
-        try {
-            Triangle(a,b,c);
-        }catch (Exception e){
-            System.err.println("Hinh tam giac khong hop le");
-        }
+    public double getSide1() {
+        return side1;
     }
 
+    public double getSide2() {
+        return side2;
+    }
+
+    public double getSide3() {
+        return side3;
+    }
+
+    public double getPerimeter() {
+        return side1 + side2 + side3;
+    }
+
+    public void showInfo() {
+        System.out.println("hinh tam giac co canh :" +side1+","+ side2+","+side3 +"voi chu vi la:"+getPerimeter());
+    }
 }
