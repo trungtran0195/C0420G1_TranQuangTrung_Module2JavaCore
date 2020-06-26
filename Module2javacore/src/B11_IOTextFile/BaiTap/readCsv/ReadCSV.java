@@ -1,4 +1,4 @@
-package B11_IOTextFile.BaiTap.ReadCSV;
+package B11_IOTextFile.BaiTap.readCsv;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;

@@ -1,6 +1,8 @@
-package B12_BinaryFileAndSerialization.BaiTap.ProductManager;
+package B12_BinaryFileAndSerialization.BaiTap.productManager;
 
-public class Product {
+import java.io.Serializable;
+
+public class Product implements Serializable {
     private Integer productId;
     private String productName;
     private String productManufacturer;

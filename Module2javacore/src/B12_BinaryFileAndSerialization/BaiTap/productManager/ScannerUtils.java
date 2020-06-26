@@ -1,4 +1,4 @@
-package B12_BinaryFileAndSerialization.BaiTap.ProductManager;
+package B12_BinaryFileAndSerialization.BaiTap.productManager;
 
 import java.util.Scanner;
 

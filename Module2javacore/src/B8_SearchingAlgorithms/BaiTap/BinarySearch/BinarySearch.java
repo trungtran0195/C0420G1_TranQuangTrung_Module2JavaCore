@@ -21,7 +21,7 @@ public class BinarySearch {
     public static void main(String[] args) {
         BinarySearch binarySearch = new BinarySearch();
         int searchArray[] = {2, 3, 4, 10, 40};
-        int findNum = 10;
+        int findNum = 1;
         int result = binarySearch.search(searchArray,0,searchArray.length,findNum);
         if (result == -1){
             System.out.println("khong tim thay phan tu" +findNum);

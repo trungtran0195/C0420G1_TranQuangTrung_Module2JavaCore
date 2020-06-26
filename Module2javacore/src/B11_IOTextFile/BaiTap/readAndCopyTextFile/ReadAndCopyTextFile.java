@@ -1,4 +1,4 @@
-package B11_IOTextFile.BaiTap.ReadAndCopyTextFile;
+package B11_IOTextFile.BaiTap.readAndCopyTextFile;
 
 import java.io.*;
 
