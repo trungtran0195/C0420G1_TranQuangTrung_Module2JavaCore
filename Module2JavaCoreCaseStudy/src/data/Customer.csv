@@ -1,0 +1,7 @@
+name,birthday,gender,idCard,phone,email,customerType,address
+Kien,09/01/1990,Male,098765123,08281731,kien@gmail.com,Gold,ha noi
+Linh,01/01/1990,Female,123433455,09872136,linh@yahoo.com,Platium,da nang
+Huy,20/11/1995,Male,912732425,09878632,huy@gmail.com,Gold,ho chi minh
+An,19/02/1985,Unknown,981263412,0986325132,anhuy@gmail.com,Diamond,ha noi
+Binh,09/10/1960,Male,912363217,01982312332,binh@gmail.com,Gold,ho chi minh
+Thai,01/01/1995,Male,912732162,098632532,thaidui@gmail.com,Platium,da nang

@@ -1,0 +1,6 @@
+id,name,area,rentCost,maxPeople,rentType,roomStandard,convenient,poolArea,floors
+SVVL-1200,Villa1,30.0,300000.0,10,Long,High,Call1,35.0,3
+SVVL-1000,Villa1,30.0,300000.0,10,Long,High,Call1,35.0,3
+SVVL-1230,Villa3,50.0,500000.0,5,Long,High,Call1,35.0,2
+SVVL-1550,Villa15,60.0,600000.0,5,Long,High,Call1,40.0,3
+SVVL-1520,Villa6,30.0,300000.0,10,Long,High,Call1,35.0,3
