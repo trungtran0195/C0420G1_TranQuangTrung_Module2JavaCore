@@ -5,7 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-public class ProductManager implements Serializable {
+public class ProductManager{
     private static final String  filepath = "src\\B12_BinaryFileAndSerialization\\BaiTap\\productManager\\test.ts";
 
     static ArrayList<Product> productArrayList;
